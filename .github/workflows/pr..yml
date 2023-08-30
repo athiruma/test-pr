@@ -3,7 +3,6 @@ name: PR Test CI
 
 on:
   pull_request_target:
-    types: [labeled, opened, synchronize]
     branches: [ main ]
   workflow_dispatch:
 
