@@ -17,4 +17,4 @@ jobs:
     steps:
       - name: Test Step
         run: |
-          echo 'Test Step: The label is present once1'
+          echo 'Test Step: The label is present once1
