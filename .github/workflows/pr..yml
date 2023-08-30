@@ -3,7 +3,6 @@ name: PR Test CI
 
 on:
   pull_request_target:
-    types: [labeled, opened, synchronize]
     branches: [ main ]
   workflow_dispatch:
 
@@ -64,4 +63,4 @@ jobs:
     steps:
       - name: Test Step
         run: |
-          echo 'Test Step: The label is present once1'
+          echo 'Test Step: The label is present once1
